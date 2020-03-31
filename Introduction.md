@@ -1,57 +1,80 @@
-# Welcome to  the TESS/Kepler/K2 Science Platform
-## Hosted by STScI and the Mikulski Archive for Space Telescope
-
-This JupyterHub instance running on AWS is intended to allow you to work with MAST's time series data without having to download it. This enables you to learn how to use NASA's photometric missions and provides a place that will allow you to work with large amounts of data hosted in the the AWS public buckets. 
-
-This area assumes you are somewhat familiar with NASA's high cadence photometric missions, but not necessarily with exactly how the data is formatted or how to best use it. If you are looking for an introduction to TESS, Kepler or K2, we recommend some of these documents. 
-
-- TESS Archive Manual
-- TESS Mission Page
-- Kepler Archive Manual
-- K2 Mission
+### TESS Platform News and Updates
+ The following are some of the most recent and important updates. See [this file](news.md) for a full list of news items.
+ 
+- 2020-04-30. Platform is made live. Welcome!
+- 2020-04-28. New Software: exoplanet added.
+- 2020-04-25. TESScut is now running using the cloud hosted data. 
 
 ----
-## Latest Updates -- What's new?
- - March 30, 2020 -- Added this document
- - March 29, 2020 -- Added nbgitpuller.
 
----
+----
 
-## A few Starting Points
+# Welcome to  the TESS Science Platform
+## Hosted by STScI and the Mikulski Archive for Space Telescope
 
-### Intro to TESS data 
+This JupyterHub instance running on AWS is intended to allow you to learn new tools, collaborate with your colleagues and ultimately perform your research on TESS and Kepler data. This enables you to learn how to use NASA's photometric missions and provides a place that will allow you to work with large amounts of data hosted in the the AWS public buckets. If you are new to JupyterHub, take this [quick tour](./Jupytertour) to familarize yourself with the platform.
+
+This platform is pre-loaded with python software packages and Jupyter notebook tutorials that teach how to do research with the TESS and Kepler Data (see the directory `notebooks/` on the left). We use git to pull new and updated notebooks into this instance,  so if you decide to alter these notebooks in a way you would like to keep, you should first make a copy for yourself. 
+
+If you would like to contribute your notebook back to the repo, please do a pull request against the stsci notebooks repo. If something is missing from the platform that you need, please email the help desk, archive@stsci.edu.
+
+----
+
+## A Few Starting Points
+
+### Intro to TESS data products
 - TESS Input Catalog with astroquery
-- Intro to target pixel files
-- Intro to light curve files
-- Intro to Full Frame Images (FFI) and rapid cutouts
-- Using Astroquery to find data
-- An introduction to manipulating TESS data light curves with Lightkurve.
-- Using eleanor to make an FFI light curve
-- How to detrend or co-trend a ligth curve
+- Find data products with astroquery
+- Intro to light curve and target pixel files [TESS]() | [Kepler]()
+- Planet Search Data Validation light curve files
+- Intro to TESS Full Frame Images (FFI)
+- Rapid, abundant cutouts of the FFIs using TESScut in the cloud
 
-### Inspecting your data
-- Pixel-level inspection
-- Make a movie of your data
-- Overlaying DSS Images
+### Manipulating Light Curves with Community Software 
 
-### Quick data visualizations
+- Lightcurve: An introduction 
+- Lighrcurve: How to stitch together data
+- Lightcurve: Detrending
+- Lightcurve: Co-trending with basis vectors
+- Eleanor: Making FFI light curves 
+- Eleanor: Pixel-Level Inspection of your data
+
+### Data and Meta-Data Visualizations
 - Compare TIC sources with a TESS FFI Image
-- Quick look light curves
-- Explore mission data
+- Quick look light curves and Periodograms
+- Combine TIC and archive availability
+- Overlaying DSS and PanStarrs Images on TESS FFIs
+
+### Science Examples
+- K2flix: Making a movie of your pixels
+- Pyriod: Find the pulsation modes of a variable stars
+- exoplanet: Fit a transiting exoplanet
+- astropy BLS: A planet search of the TESS FFI data
+- Ruling out common systematic noise sources. [TESS]() | [Kepler]()
+- Kepler planet search and occurrence rates
 
 ----
 ### Cloud Computing
-- Basics of AWS for Science: credentials, buckets, boto3
-- Speeding up code with Dask
-- 
-    An Introduction to the AWS cloud, getting credentials and which MAST data sets that are available in the cloud.
-    Writing and retrieving data from S3 Buckets, for those who need to create a lot of data. – Working with the public data sets.
-    Adding more computational power with Dask.
-    Sharing code and environments with your collaborators.
-    Spinning up your own TESS JupyterHub.
-    How to transfer files onto the platform: ssh, scp
+- Intro to AWS for Scientists: credentials and costs
+- Intro to AWS: S3 buckets and boto3
+- Dask: Speeding up code with many processors
+- ???
 
-### TESS Platform Info
+### Platform Information
 - FAQ: How do I share data?  How do I pull down code? Collaboration?
 - Overview of what's behind this platform.
 
+---
+
+### More Information
+The tutorials available here assume you are somewhat familiar with NASA's high cadence photometric missions (TESS, Kepler or K2). If you are looking for an introduction to TESS, Kepler or K2, we recommend some of these documents. 
+
+- [TESS Archive Documentation](https://outerspace.stsci.edu/display/TESS)
+- [TESS Mission Page](https://tess.mit.edu)
+- [Kepler Documentation](https://archive.stsci.edu/missions-and-data/kepler/documents)
+- [K2 Documentation](https://archive.stsci.edu/missions-and-data/k2/documents)
+
+---
+Author: Susan E. Mullally, STScI
+
+Last Updated: 2020-03-31
