@@ -40,8 +40,8 @@ If you would like to contribute your notebook back to the repo, please do a pull
 - Eleanor: Pixel-Level Inspection of your data
 
 ### Data and Meta-Data Visualizations
-- Compare TIC sources with a TESS FFI Image
-- Quick look light curves and Periodograms
+- Compare TIC sources with a TESS target pixel file (see tpfplotter)
+- Quick look light curves and periodograms
 - Combine TIC and archive availability
 - Overlaying DSS and PanStarrs Images on TESS FFIs
 
@@ -61,13 +61,13 @@ If you would like to contribute your notebook back to the repo, please do a pull
 - ???
 
 ### Platform Information
-- FAQ: How do I share data?  How do I pull down code? Collaboration?
-- Overview of what's behind this platform.
+- FAQ: How do I share data?  What resources does this provide? Installing software.
+- Overview of how this platform was built.
 
 ---
 
 ### More Information
-The tutorials available here assume you are somewhat familiar with NASA's high cadence photometric missions (TESS, Kepler or K2). If you are looking for an introduction to TESS, Kepler or K2, we recommend some of these documents. 
+The tutorials available here assume you are somewhat familiar with NASA's high cadence photometric missions (TESS, Kepler or K2). If you are looking for an introduction to these missions, we recommend some of these documents. 
 
 - [TESS Archive Documentation](https://outerspace.stsci.edu/display/TESS)
 - [TESS Mission Page](https://tess.mit.edu)
