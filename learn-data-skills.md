@@ -3,7 +3,7 @@ In this set of tutorials we aim to show you how to select targets, retrieve data
 
 
 ### Selecting Targets from the TESS Input Catalog
-- Learn how to access the TESS Input Catalog with astroquery |[TIC Search](../notebooks/MAST/TESS/beginner_tic_search_hd209458/beginnner_tic_search_hd209458.ipynb)
+- Learn how to access the TESS Input Catalog with astroquery | [TIC Search](../notebooks/MAST/TESS/beginner_tic_search_hd209458/beginnner_tic_search_hd209458.ipynb)
 - PyVO TAP access to astroquery
 - CasJobs for sql access to large tables, an introduction
 
