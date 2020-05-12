@@ -1,7 +1,7 @@
 # Welcome to the TESS Integrated Knoweledge Engine  
 ![TESS Sketch](tess-icon.png)
 
-This [JupyterHub](https://jupyter.org/hub) instance running on AWS is intended to allow you to learn new data analysis tools, collaborate with your colleagues in a common workspace, customize data visualizations, and ultimately perform your research on TESS and Kepler data. Learn more about the capabilities of this space with this [quick tour](./tike-tour.md).
+This [JupyterHub](https://jupyter.org/hub) instance running on AWS is intended to allow you to learn new data analysis tools, collaborate with your colleagues in a common workspace, customize data visualizations, and ultimately do research on TESS and Kepler data. Learn more about the capabilities of this space with this [quick tour](./tike-tour.md).
 
 This platform is pre-loaded with python software packages and Jupyter notebook tutorials that teach how to do research with the TESS and Kepler Data (see the directory `notebooks/` on the left). We use git to pull new and updated notebooks into this instance, so if you decide to alter these notebooks for your own purposes (and we hope that you do), you should first make a copy for yourself. 
 
