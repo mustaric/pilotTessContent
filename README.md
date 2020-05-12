@@ -1,12 +1,10 @@
-# proto-TIKE
-This repository contains the curated content for the TESS and Kepler focused JupyterHub Environment managed by MAST. This repo contains documents and code which teaches how to best use NASA's Kepler and TESS time series missions. It also demonstrates how to make use of the cloud-hosted data and the AWS computational environment to your analysis of these data.
+# Timeseries Integrated Knowledge Engine
+This repository contains the curated content to learn how to use and access the data associated with the TESS and Kepler missions on the MAST-hosted science platform. This repo contains documents and code which teaches how to best use NASA's Kepler and TESS time series missions. It also demonstrates how to make use of the cloud-hosted data and the AWS computational environment to your analysis of these data.
 
 This repo is intended to contain community provided and community driven content. If you see topics that are missing, users are encouraged to either open an issue or create a pull request. Several topics are intentionally left undone in the hopes that others will contribute content to this repo as appropriate.  
 
-This repo is intended as a way to curate content from other repos.
 
-
-##Contributing Guidlines
+##Contributing Guidlines <Stolen from Notebooks page>
 
 1. Read over the [spacetelescope notebook style guide](https://github.com/spacetelescope/style-guides/blob/master/guides/jupyter-notebooks.md). The style parts are guidelines and it is not always necessary to follow them to the letter, but contributions are expected to generally follow this guide.  However the layout and data rules in general should be followed to ensure this repository stays consistent.
 2. Fork this repository

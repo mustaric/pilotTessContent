@@ -13,7 +13,7 @@ Working on AWS is not exactly the same as working on your laptop. It provides ac
 - Intro to AWS: credentials and costs
 - Intro to AWS: S3 buckets and boto3
 - [Accessing cloud-hosted data with astroquery](./code/cloud_astroquery.ipynb)
-- Dask: Speeding up code with many processors
+- Dask: [Paralellize a Periodogram](./code/Dask_meanFTloop.ipynb)
 - Optimizing your code in the cloud
-- Spinning up your own EC2 instance of the proto-TIKE
+- Spinning up your own EC2 instance
 

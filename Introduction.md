@@ -1,4 +1,4 @@
-# Welcome to the MAST proto-TIKE  
+# Welcome to the TESS Integrated Knoweledge Engine  
 ![TESS Sketch](tess-icon.png)
 
 This [JupyterHub](https://jupyter.org/hub) instance running on AWS is intended to allow you to learn new data analysis tools, collaborate with your colleagues in a common workspace, customize data visualizations, and ultimately perform your research on TESS and Kepler data. Learn more about the capabilities of this space with this [quick tour](./tike-tour.md).
