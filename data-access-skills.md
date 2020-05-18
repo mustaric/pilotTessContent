@@ -10,7 +10,7 @@ The TESS Input catalog is available through various services. For simple queries
 - Accessing the TIC using TAP and the Virtual Observatory's PyVO package | []()
 - Searching by Footprint using GSSC
 
-### Using Astroquery to Locate and Download Data Files
+## Using Astroquery to Locate and Download Data Files
 Astroquery is community led software that allows direct access to the MAST central database of observations. With a few functions you can filter the observations and locate data of interest at MAST.  Here we explore the basic process to download the different types of Kepler and TESS data products, including some of the populare community delivered light curves.
 
 - Download light curve and target pixel files for one target | [TESS]() [Kepler]()
