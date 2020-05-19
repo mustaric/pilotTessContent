@@ -17,7 +17,7 @@ This notebook uses python requests to get down planet parameters and plot the TE
 
 
 
-###[Overlay Sloan Digital Sky Survey Image](../notebooks/MAST/TESS/interm_tesscut_dss_overlay/tesscut_dss_overlay.ipynb). 
+### [Overlay Sloan Digital Sky Survey Image](../notebooks/MAST/TESS/interm_tesscut_dss_overlay/tesscut_dss_overlay.ipynb). 
 Overlay a high resolution image onto a TESS image. Also use k2flix to making a movie of the target pixel file.
 
 ![DSS Overlay](./images/dss-overlay.png)
