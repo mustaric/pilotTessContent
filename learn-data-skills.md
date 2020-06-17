@@ -32,15 +32,5 @@ The TESS instrument handbook and the Kepler data characteristics handbook descri
 - Self Flat Fielding
 - Pixel Level Decorrelation (PLD)
 - Gaussian Processes
+- Scattered light
 
-## Science Examples
-These tutorials are specific to a particular science case and show how to pull together some of the knowledge above.  Several rely on community provided software packages.
-
-- K2flix: Making a movie of your pixels
-- [Stellar Flares and Variable stars.](./notebooks/MAST/TESS/interm_tasc_lc/interm_tasc_lc.ipynb) by Clara Brasseur
-- Find the pulsation modes of a variable stars
-- exoplanet: Fit a transiting exoplanet
-- astropy BLS: A planet search of the TESS FFI data
-- Ruling out common systematic noise sources. [TESS]() | [Kepler]()
-- Kepler planet search and occurrence rates
-- Simple light curve classifier

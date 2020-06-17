@@ -1,4 +1,4 @@
-# Welcome to the Timeseries Integrated Knoweledge Engine  
+# Welcome to the Time series Integrated Knoweledge Engine  
 ![TESS Sketch](images/tess-icon.png)
 
 This [JupyterHub](https://jupyter.org/hub) instance running on AWS is intended to allow you to learn new data analysis tools, collaborate with your colleagues in a common workspace, customize data visualizations, and ultimately do research on TESS and Kepler data. 
